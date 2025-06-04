@@ -42,7 +42,7 @@ Projeto de um site de vendas inspirado na Nike, desenvolvido para fins educacion
 
 ## Autor
 
-Seu Nome
+Guilherme Saraiva
 
 ---
 
