@@ -1,0 +1,88 @@
+body {
+            background: linear-gradient(120deg, #111 60%, #fff 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-container {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.13);
+            padding: 38px 32px 32px 32px;
+            max-width: 350px;
+            width: 100%;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-container h2 {
+            margin-bottom: 18px;
+            color: #111;
+            letter-spacing: 1px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 14px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            background: #fafafa;
+        }
+        .login-container button[type="submit"] {
+            width: 100%;
+            background: #111;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: 12px 0;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .login-container button[type="submit"]:hover {
+            background: #e5e5e5;
+            color: #111;
+        }
+        .login-container .btn-home {
+            width: 100%;
+            background: #fff;
+            color: #111;
+            border: 1px solid #111;
+            border-radius: 30px;
+            padding: 10px 0;
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin-top: 6px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .login-container .btn-home:hover {
+            background: #111;
+            color: #fff;
+        }
+        .login-logo {
+            margin-bottom: 18px;
+        }
+        .login-logo img {
+            height: 48px;
+        }
+        .login-error {
+            color: #fff;
+            background: #e74c3c;
+            border-radius: 8px;
+            padding: 10px 0;
+            margin-bottom: 14px;
+            width: 100%;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
