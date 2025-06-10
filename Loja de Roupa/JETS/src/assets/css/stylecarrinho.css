@@ -1,0 +1,83 @@
+/* ...existing code... */
+.cart-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+    transition: box-shadow 0.2s;
+}
+.cart-card:hover {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+}
+.cart-card img {
+    width: 72px;
+    border-radius: 8px;
+    background: #f6f6f6;
+}
+.cart-card strong {
+    font-size: 1.1em;
+    color: #111;
+    min-width: 120px;
+}
+.cart-card .cart-price {
+    color: #111;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.cart-card .cart-qtd-btn {
+    background: #f6f6f6;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.cart-card .cart-qtd-btn:hover {
+    background: #111;
+    color: #fff;
+}
+.cart-card .cart-remove-btn {
+    background: none;
+    border: none;
+    color: #e53935;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 12px;
+    font-size: 1em;
+    transition: color 0.2s;
+}
+
+#cart-total {
+    font-size: 1.3em;
+    color: #111;
+    background: #f6f6f6;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top: 18px;
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .cart-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 12px 8px;
+    }
+    #cart-total {
+        font-size: 1em;
+        padding: 10px 8px;
+    }
+}
