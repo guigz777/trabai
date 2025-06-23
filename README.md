@@ -1,4 +1,4 @@
-# Loja de Roupas Nike
+# Loja de Roupas JETs
 
 Projeto de um site de vendas inspirado na Nike, desenvolvido para fins educacionais. O sistema permite visualizar produtos, adicionar ao carrinho, enviar mensagens de contato e realizar o gerenciamento de produtos (CRUD) via painel administrativo.
 
